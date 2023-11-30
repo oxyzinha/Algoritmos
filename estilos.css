@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.retangulo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('papeldeparedegratis-espaço-hd\ \(2\).jpg'); /* Substitua pelo caminho correto da sua imagem */
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid #000000; /* Cor da borda do retângulo */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* Sombra para sobressair */
+    filter: blur(30px); /* Desfoque na imagem de fundo */
+}
+
+.retangulo-sem-desfoque {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('papeldeparedegratis-espaço-hd\ \(2\).jpg'); /* Substitua pelo caminho correto da sua outra imagem */
+    background-size: cover;
+    width: 1400px; /* Ajuste a largura conforme desejado */
+    height: 600px; /* Ajuste a altura conforme desejado */
+    border: 1px solid #000000; /* Cor da borda do retângulo sem desfoque */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8); /* Sombra para sobressair */
+}
+
+.retangulo-sem-desfoque h1 {
+    color: #ffffff; /* Cor do texto dentro do retângulo sem desfoque */
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
