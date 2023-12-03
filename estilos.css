@@ -38,9 +38,10 @@ body {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.8); /* Sombra para sobressair */
 }
 
-.retangulo-sem-desfoque h1 {
-    color: #ffffff; /* Cor do texto dentro do retângulo sem desfoque */
+.retangulo-sem-desfoque p {
+    color: #fafafa; /* Cor do texto dentro do retângulo sem desfoque */ 
     text-align: center;
     margin: 0;
     padding: 20px;
 }
+
